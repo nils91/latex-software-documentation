@@ -1,5 +1,6 @@
-Beispiel für eine Abschlussarbeit mit LaTeX
-Copyright (C) 2012-2016  Carsten Gips
+Template for a software-documentation with LaTeX
+Copyright (C) 2019-2020  Nils Dralle
+Previous copyright (C) 2012-2016  Carsten Gips
 
 
     This program is free software: you can redistribute it and/or modify
@@ -17,12 +18,11 @@ Copyright (C) 2012-2016  Carsten Gips
 
 
 
-In diesem Repo wird eine Vorlage für eine mit LaTeX erstellte Abschlussarbeit
-gepflegt. 
+The LaTeX template in this repository can be used as template for software documentation.
 
 
 
-## Nutzung
+## Usage (TODO...)
 
 * Das Repo mit `git clone` lokal auschecken.
 
@@ -40,11 +40,6 @@ gepflegt.
 
   
   
-## Mitarbeit
+## Collab (TODO...)
 
-* Bitte dem normalen Github-Workflow folgen: Das Repo forken, eigene Änderungen
-  im Fork vornehmen und einen Pull- bzw. Merge-Request auslösen.
-  
 
-=======
-# latex-software-documentation
