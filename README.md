@@ -7,24 +7,13 @@ Licensed under GPLv3. For the license see [LICENSE.md](./LICENSE.md).<br>
 
 
 
-## Usage (TODO...)
+## Usage
 
-* Das Repo mit `git clone` lokal auschecken.
+* The main file is `documentation.tex`. This file contains the main structure and used packages. Change as needed.
 
-* Die Hauptdatei `abschlussarbeit.tex` enthält einen Vorschlag für die Struktur
-  der Arbeit einschliesslich einer möglichen Titelseite. Von dort ausgehend die
-  eigenen Inhalte integrieren. Nicht benötigte Beispieldateien bitte entfernen.
-
-* Zum Übersetzen werden `pdflatex` und `bibtex` sowie einige Standardpakekte
-  verwendet. Eine Installation von Tex-Live oder MikTex sollte genügen.
-
-* Zur Erleichterung der Arbeit steht ein rudimentäres Makefile bereit.
-
-* Eclipse-Nutzer: Nach der Installation des `Texlipse`-Plugins können Sie das
-  Repo als Texlipse-Projekt clonen und mit Eclipse bearbeiten.
+* The individual chapters go in their own file in `/tex/`.
 
   
   
-## Collab (TODO...)
 
 
