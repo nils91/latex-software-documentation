@@ -1,8 +1,8 @@
 # Template for a software-documentation with LaTeX
 
 The LaTeX template in this repository can be used as template for software documentation.
-For the license see [LICENSE.md].
-`Copyright (C) 2019-2020  Nils Dralle`
+For the license see (LICENSE.md).<br>
+`Copyright (C) 2019-2020  Nils Dralle`<br>
 `Previous copyright (C) 2012-2016  Carsten Gips`
 
 
