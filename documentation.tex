@@ -1,14 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Vorlage fuer Abschlussarbeit (IFM, FB-T, FH Bielefeld)
-%% Autor: Nils Dralle
-%% Datum: 10.06.2020
+%% Template for documentation files.
+%% Author: Nils Dralle
+%% Date: 10.06.2020
 \documentclass[11pt, a4paper]{article}
 
 
 
+%------------------------------------- Setup Page ----------------
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2.5cm]{geometry}
+%------------------------------------- Setup Page ----------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Nuetzliche Pakete
+%% Packages
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -16,15 +19,6 @@
 % \usepackage{times}
 
 \usepackage[babel]{csquotes}
-
-
-%------------------------------------- Seitenraender ----------------
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2.5cm]{geometry}
-%------------------------------------- Seitenraender ----------------
-
-
-
-
 
 % \usepackage{latexsym}
 % \usepackage{exscale}
@@ -52,6 +46,7 @@
 
 \usepackage{amssymb,amsmath}
 
+% color macros
 \definecolor{listinggray}{gray}{0.92}
 \definecolor{commentgray}{gray}{0.6}
 \definecolor{quellengray}{gray}{0.8}
@@ -92,7 +87,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Start des Dokuments
+%% DOcument
 \begin{document}
 
 
@@ -103,7 +98,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Titelseite
+%% Title
 \input{tex/titelseite}\clearpage
 
 
@@ -113,12 +108,12 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Verzeichnisse
+%% Index
 \input{tex/verzeichnisse}\clearpage
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Einleitung
+%% Intro
 \input{tex/einleitung}\clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,13 +124,12 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Zusammenfassung und Ausblick
+%% Overview and summary
 \input{tex/zusammenfassung}\clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Literatur
-%% braucht einen Zwischenlauf mit "bibtex abschlussarbeit"
-%% nach Änderungen: pdflatex, bibtex, pdflatex, pdflatex, pdflatex
+%% Bibliography
+%% call "bibtex documentaion" before main compile to refresh bibliography
 \input{tex/literatur}\clearpage
 
 
@@ -149,7 +143,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Game over ;-)
+%% The end
 \end{document}
 
 
